@@ -1,0 +1,17 @@
+{
+  "name": "rn487x",
+  "author": "EonTeam",
+  "type": "library",
+  "platforms": ["eonteam/stm32l0", "eonteam/stm32g0"],
+  "configFile": "rn487x_defines",
+  "configMacros": [
+    "RN487X_DEBUG=1",
+    "RN487X_RESET_PIN=PA8",
+    "RN487X_WAKE_PIN=PB14",
+    "BLE_SERIAL_PRINT=uart1_print",
+    "BLE_SERIAL_AVAILABLE=uart1_available",
+    "BLE_SERIAL_READ=uart1_read",
+    "BLE_SERIAL_WRITE=uart1_write",
+    "BLE_MAX_NUMBER_OF_CHARACTERISTICS=16"
+  ]
+}

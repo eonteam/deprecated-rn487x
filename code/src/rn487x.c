@@ -768,6 +768,6 @@ bool rn487x_buildCharacts(void)
       }
     }
   }
-  uart2_println("");
+  DEBUG_PRINTLN("");
   return true;
 }
